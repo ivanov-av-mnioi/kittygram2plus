@@ -3,3 +3,7 @@ djangorestframework==3.12.4
 PyJWT==2.1.0
 djangorestframework-simplejwt==4.8.0
 djoser==2.1.0
+flake8==6.0.0
+flake8_broken_line==0.6.0
+flake8-return==1.2.0
+flake8_isort==6.0.0
