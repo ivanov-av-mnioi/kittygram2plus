@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'djoser',
     'cats.apps.CatsConfig',
+    'django_filters',
 ]
 
 MIDDLEWARE = [

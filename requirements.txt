@@ -7,3 +7,4 @@ flake8==6.0.0
 flake8_broken_line==0.6.0
 flake8-return==1.2.0
 flake8_isort==6.0.0
+django-filter==23.2
