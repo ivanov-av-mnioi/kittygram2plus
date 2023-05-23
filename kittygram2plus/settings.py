@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'djoser',
     'cats.apps.CatsConfig',
     'django_filters',
+    'drf_yasg',
 ]
 
 MIDDLEWARE = [
@@ -52,6 +53,16 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'kittygram2plus.urls'
+
+SWAGGER_SETTINGS = {
+   'SECURITY_DEFINITIONS': {
+      'Bearer': {
+            'type': 'apiKey',
+            'name': 'Authorization',
+            'in': 'header'
+      }
+   }
+}
 
 TEMPLATES = [
     {
